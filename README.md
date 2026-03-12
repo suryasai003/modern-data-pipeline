@@ -40,8 +40,7 @@ modern-data-pipeline
 
 ## Architecture Diagram
 
-See `/architecture/pipeline_architecture.png`
-
+![Pipeline Architecture](architecture/pipeline_architecture.png)
 ## Skills Demonstrated
 
 Data Engineering  
