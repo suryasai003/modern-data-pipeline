@@ -41,8 +41,8 @@ modern-data-pipeline
 ## Architecture Diagram
 
 ![Pipeline Architecture](architecture/pipeline_architecture.png)
-## Skills Demonstrated
 
+## Skills Demonstrated
 Data Engineering  
 ETL Pipeline Development  
 Data Modeling  
