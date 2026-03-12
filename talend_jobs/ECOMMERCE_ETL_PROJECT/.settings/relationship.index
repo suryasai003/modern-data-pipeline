@@ -1,0 +1,44 @@
+[ {
+  "baseItem" : {
+    "id" : "_pjHn8Bt4EfG096Vtz9QoyQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "ECOMMERCE_ETL_PROJECT:_8DjYABndEfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE_ETL_PROJECT:_AmSG4BnfEfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE_ETL_PROJECT:_FEKNABt3EfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE_ETL_PROJECT:_MZBl0BqHEfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE_ETL_PROJECT:__QjdQBqSEfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE_ETL_PROJECT:_bMkA0BtyEfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE_ETL_PROJECT:_hpYRMBnbEfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE_ETL_PROJECT:_jocWEBt0EfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ECOMMERCE_ETL_PROJECT:_pqvvYBt3EfG096Vtz9QoyQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+} ]
