@@ -1,98 +1,53 @@
-\# Modern Data Pipeline using Talend, PostgreSQL and dbt
+# Modern Data Pipeline (Talend + PostgreSQL + dbt)
 
+This project demonstrates an end-to-end modern data pipeline built using Talend, PostgreSQL, and dbt.
 
+## Architecture
 
-\## Project Overview
+Raw CSV data → Talend ETL → PostgreSQL → dbt Transformations → Analytics Tables
 
-This project demonstrates an end-to-end modern data pipeline built using Talend for data ingestion, PostgreSQL as a data warehouse, and dbt for data transformation and modeling.
+## Tools Used
 
+Talend Open Studio  
+PostgreSQL  
+dbt  
+Git & GitHub  
 
+## Project Structure
 
-\## Architecture
+modern-data-pipeline
+│
+├── architecture        # Pipeline architecture diagram
+├── datasets            # Raw ecommerce CSV datasets
+├── talend_jobs         # Talend ETL jobs
+├── dbt_project         # dbt transformation models
+├── sql_queries         # SQL validation queries
+└── README.md
 
-The pipeline follows this workflow:
+## Pipeline Steps
 
+1. Raw ecommerce CSV files are ingested.
+2. Talend loads the data into PostgreSQL staging tables.
+3. dbt transforms the data into analytics-ready tables.
+4. Final models are used for reporting and analysis.
 
+## Example dbt Models
 
-Dataset → Talend ETL → PostgreSQL (Raw Tables) → dbt Staging → dbt Analytics Models
+- customers
+- orders
+- payments
+- products
 
+## Architecture Diagram
 
+See `/architecture/pipeline_architecture.png`
 
-!\[Pipeline Architecture](architecture/pipeline\_architecture.png)
+## Skills Demonstrated
 
-
-
-\## Technologies Used
-
-\- Talend Open Studio (ETL)
-
-\- PostgreSQL (Data Warehouse)
-
-\- dbt (Data Transformation)
-
-\- SQL (Data Analysis)
-
-\- draw.io (Architecture Diagram)
-
-
-
-\## Data Pipeline Flow
-
-
-
-\### 1. Data Ingestion
-
-Talend jobs load raw ecommerce datasets into PostgreSQL raw tables.
-
-
-
-\### 2. Raw Layer (PostgreSQL)
-
-Tables:
-
-\- raw\_customers
-
-\- raw\_orders
-
-\- raw\_products
-
-\- raw\_payments
-
-\- raw\_reviews
-
-\- raw\_sellers
-
-
-
-\### 3. Staging Layer (dbt)
-
-Data is cleaned and standardized using staging models:
-
-\- stg\_customers
-
-\- stg\_orders
-
-\- stg\_products
-
-\- stg\_payments
-
-\- stg\_reviews
-
-\- stg\_sellers
-
-
-
-\### 4. Analytics Layer (dbt)
-
-Final analytical models are created:
-
-\- dim\_customers
-
-\- dim\_products
-
-\- fact\_orders
-
-
-
-\## Project Structure
-
+Data Engineering  
+ETL Pipeline Development  
+Data Modeling  
+SQL Transformations  
+dbt Transformations  
+Talend Data Integration  
+Git Version Control
